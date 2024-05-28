@@ -171,3 +171,31 @@ Module({
     
     })
 }));
+Module({
+    pattern: "wawe",
+    fromMe: isPrivate,
+    desc: "audio into wave",
+    type: "converter",
+}, async (message) => {
+    try {
+        if (!message.reply_message?.audio) {
+            return await message.reply("_Reply to an audio_");
+        }
+
+        let buff = await message.reply_message.download();
+        let media = await toPTT(buff);
+
+        return await message.send(media, { mimetype: 'audio/mpeg', ptt: true, quoted: message.data }, "audio");
+    } catch (error) {
+        console.error("An error occurred:", error);
+        return await message.reply("_An error occurred while converting audio to wave._");
+    }
+});
+Module({
+	pattern: "exif",
+	fromMe: isPrivate,
+	desc: "get exif data",
+	type: "tool",
+}, async (message, match, m) => {
+	await takeExif(message, match, m);
+});
