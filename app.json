@@ -1,5 +1,5 @@
 {
-	"name": "DMALIK-KHAN",
+	"name": "MMALIK-KHAN",
 	"description": "Wa Bot.",
 	"keywords": [
 		"whatsapp",
@@ -79,7 +79,7 @@
             "value":"{pp} Active since {uptime}\n User:{sender}"
         },
        "SESSION": {
-            "description": "Your MD session",
+            "description": "Raganork~6974a5a08d42e7b6935bb3d9caefde17:45344974464e75745462633d",
             "required": true
              
         }
