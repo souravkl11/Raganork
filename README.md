@@ -1,9 +1,10 @@
-# _Raganork-multi-device_
+# _MALIK-KHAN-multi-device_
 ## _Multi device whatsapp bot created with [Baileys](https://github.com/whiskeysockets/Baileys)_
   
 <div align="center">
    
-<a href="https://raganork.online/"><img align="center" src="https://i.imgur.com/dzPTA6u.png" alt="Scan QR" height="112" width="300" /></a><br>
+<a href="https://MALIK![reface-2024-03-31-07-33-54_1712237639143](https://github.com/user-attachments/assets/76aa8c2d-24b5-4b6a-96fa-c4de333f7c41)
+.online/"><img align="center" src="https://i.imgur.com/dzPTA6u.png" alt="Scan QR" height="112" width="300" /></a><br>
 
 </div>
 
