@@ -1,4 +1,3 @@
-const fetch = global.fetch;
 const REGEX = /\["(\bhttps?:\/\/[^"]+)",(\d+),(\d+)\],null/g;
 
 /**
