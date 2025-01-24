@@ -1,3 +1,4 @@
+const keep_alive = require('./keep_alive.js')
 const fs = require('fs');
 const { Sequelize } = require('sequelize');
 const isVPS = !(__dirname.startsWith("/rgnk") || __dirname.startsWith("/skl"));
