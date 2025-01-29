@@ -1,28 +1,18 @@
 {
-  "name": "raganork-md",
+  "name": "sparky",
   "version": "5.0.0",
   "description": "A light weight WhatsApp bot.",
   "scripts": {
-    "start": "pm2 start . --attach --name Raganork"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/souravkl11/raganork-md.git"
+    "start": "pm2 start . --attach --name sparky"
   },
   "overrides": {
     "raganork-bot": {
       "youtubei.js": "^2.5.3"
     }
   },
-  "keywords": [
-    "whatsapp",
-    "bot",
-    "multi-device"
-  ],
-  "author": "Sourav",
-  "developer": "@souravkl11",
+  "author": "pooran saurav",
+  "developer": "pooran saurav",
   "license": "GPL-3.0-or-later",
-  "homepage": "https://github.com/souravkl11/raganork#readme",
   "dependencies": {
     "@adiwajshing/baileys": "git+https://github.com/souravkl11/Baileys.git",
     "@adiwajshing/keyed-db": "0.2.4",
